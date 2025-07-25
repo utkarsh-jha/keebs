@@ -1,4 +1,9 @@
 
+> **⚠️ CRITICAL R1 PCB ISSUE:**
+> - **R1 PCBs have a serious design flaw** where one of the columns is routed to the GND pin instead of a GPIO pin.
+> - **Manual fix required**: You must manually jump the affected column to pin 23 (GP17) to make the keyboard functional.
+> - This issue will be fixed in future revisions. The repository will be updated once R2 PCBs are available.
+
 > **Disclaimer:**
 > - **This is a work in progress!**
 > - This project is provided as-is, with no guarantees or warranties. Use at your own risk.
@@ -68,3 +73,4 @@ Silk screen art source: [Wormhole Vectors by Vecteezy](https://www.vecteezy.com/
 | Date           | Event                  |
 |----------------|------------------------|
 | 6th July 2025  | PCB protos ordered     |
+| 25th July 2025  | PCB has a design flaw where one of the pins is routed to GND and havent tested the pico steno mode since the MCU I have is using a Zetta based flash chip (the official repos supporst Winbond chip)      |
